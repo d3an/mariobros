@@ -1,0 +1,176 @@
+(
+	// Width of the texture used by the sprite sheet
+	texture_width: 436,
+	// Height of the texture used by the sprite sheet
+	texture_height: 673,
+	// List of sprites the sheet holds
+	sprites: [
+		/* ========= Long Floors ========= */
+
+		// Brick Floor
+		(
+			// Horizontal position of the sprite in the sprite sheet (Left)
+            x: 4,
+            // Vertical position of the sprite in the sprite sheet (Top)
+            y: 292,
+            // Width of the sprite
+            width: 257,
+            // Height of the sprite
+            height: 17,
+            // Number of pixels to shift the sprite to the left and down relative to the entity holding it when rendering
+            offsets: Some((0.0, 0.0)), // This is optional and defaults to (0.0, 0.0)
+		),
+
+		/* ========= Pipes ========= */
+
+		// First floor pipe
+		(
+			x: 10,
+			y: 257,
+			width: 34,
+			height: 20,
+		),
+		// Top floor pipe
+		(
+			x: 50,
+			y: 245,
+			width: 50,
+			height: 32,
+		),
+
+		/* ========= Floor Blocks ========= */
+
+		// Single Blue Floor Block
+		(
+			x: 111,
+			y: 273,
+			width: 9,
+			height: 10,
+		),
+		// Orange Floor Block
+		(
+			x: 122,
+			y: 137,
+			width: 17,
+			height: 8,
+		),
+
+		/* ========= POW Blocks ========= */
+
+		// Full POW Block
+		(
+			x: 132,
+			y: 242,
+			width: 18,
+			height: 18,
+		),
+		// Half POW Block
+		(
+			x: 152,
+			y: 245,
+			width: 18,
+			height: 15,
+		),
+		// Quarter POW Block
+		(
+			x: 172,
+			y: 249,
+			width: 18,
+			height: 11,
+		),
+
+		/* ========= Coins ========= */
+
+		// Full Coin
+		(
+			x: 168,
+			y: 137,
+			width: 10,
+			height: 13,
+		),
+		// Half Coin
+		(
+			x: 159,
+			y: 137,
+			width: 6,
+			height: 13,
+		),
+		// Quarter Coin
+		(
+			x: 153,
+			y: 137,
+			width: 3,
+			height: 13,
+		),
+
+		/* ========= Mario Sprites ========= */
+
+		// Indexed left to right
+		// Mario (1)
+		(
+			x: 2,
+			y: 601,
+			width: 18,
+			height: 25,
+		),
+		// Mario (2)
+		(
+			x: 21,
+			y: 601,
+			width: 14,
+			height: 25,
+		),
+		// Mario (3)
+		(
+			x: 35,
+			y: 601,
+			width: 16,
+			height: 25,
+		),
+		// Mario (4)
+		(
+			x: 53,
+			y: 601,
+			width: 16,
+			height: 25,
+		),
+		// Mario (5)
+		(
+			x: 72,
+			y: 601,
+			width: 17,
+			height: 25,
+		),
+		// Mario (6)
+		(
+			x: 92,
+			y: 601,
+			width: 17,
+			height: 25,
+		),
+		// Mario (7)
+		(
+			x: 112,
+			y: 601,
+			width: 18,
+			height: 25,
+		),
+		// Mario (8)
+		(
+			x: 135,
+			y: 601,
+			width: 18,
+			height: 25,
+		),
+
+	],
+)
+
+
+
+
+
+
+
+
+
