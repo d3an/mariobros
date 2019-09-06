@@ -1,0 +1,4 @@
+(
+	title: "Mario Bros.",
+	dimensions: Some((500, 500)),
+)
